@@ -1,0 +1,34 @@
+body {
+	background-color: #000;    
+	margin: 0;
+	overflow: hidden;
+	background-repeat: no-repeat;
+  }
+  
+  #heartBtn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 200px;
+	height: 60px;
+	border: none;
+	border-radius: 30px;
+	background-color: rgb(31, 24, 25);
+	font-size: 24px;
+	color: rgb(133, 29, 29);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer;
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media only screen and (max-width: 600px) {
+	#heartBtn {
+	  width: 150px;
+	  height: 45px;
+	  font-size: 18px;
+	  border-radius: 25px;
+	}
+  }
+  
